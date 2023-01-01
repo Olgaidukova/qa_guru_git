@@ -5,7 +5,7 @@ public class GitHubConflict {
     @Test
     void newTest() {
         int i = 42;
-        System.out.println("This is the best test");
+        System.out.println("This is the best test"+" "+ i);
         Assertions.assertTrue(i > 2);
     }
 }
